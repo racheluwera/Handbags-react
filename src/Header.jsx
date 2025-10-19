@@ -10,8 +10,8 @@ import {Link} from "react-router-dom"
         <div className="justify-between space-x-4 text-lg ">
         <Link to="/"className="hover:text-blue-600">Home</Link>
         <Link to="/About"className="hover:text-blue-600">About</Link>
-         <Link to="/Product"className="hover:text-blue-600">Products</Link>
-          <Link to="/Contact"className="hover:text-blue-600">Contacts</Link>
+         <Link to="/products"className="hover:text-blue-600">Products</Link>
+          <Link to="/contacts"className="hover:text-blue-600">Contacts</Link>
            
          </div>
       </nav>
