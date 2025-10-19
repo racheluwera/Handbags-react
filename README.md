@@ -1,16 +1,91 @@
-# React + Vite
+#  Static E-commerce Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern **static e-commerce homepage** built using **React**, **Tailwind CSS**, and **React Router DOM**.  
+This project showcases a clean online store layout with navigation across multiple pages — ideal for learning or demonstrating frontend development skills.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  **Project Overview**
 
-## React Compiler
+This project represents a **handbag store** landing page with multiple sections:  
+- A visually appealing homepage introducing the brand.  
+- A product listing page displaying various handbags with prices and images.  
+- An about page describing the store.  
+- A contact page with a working contact form.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It’s designed to demonstrate responsive layouts, routing, and component-based design in React.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  **List of Pages**
+
+| Page | Description |
+|------|--------------|
+| **Home** | Displays the store introduction and featured section. |
+| **Products** | Lists available handbags with images, names, and prices. |
+| **About** | Provides store details, mission, and background information. |
+| **Contact** | Contains a form to reach out to the store or brand. |
+
+---
+
+##  **Technologies Used**
+
+- **React** — Frontend library for building the UI.  
+- **Tailwind CSS** — Utility-first CSS framework for responsive styling.  
+- **React Router DOM** — Enables navigation between pages.  
+- **Vite** — Fast build tool and local development server.
+
+---
+
+## **Screenshot**
+
+Below is a preview of the homepage:
+
+![Homepage Screens![alt text](image.png)hot](./src/assets/screenshot.png)
+
+
+## **Deployment Link**
+
+**Live Demo:** 
+
+
+## **Folder Structure**
+Handbags-react/
+|__e-commerce
+  |
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/
+│ │ ├── image1.jpg
+│ │ ├── image2.jpg
+│ │ ├── ...
+│ ├
+│ │ ├── Header.jsx
+│ │ ├── Footer.jsx
+│ ├
+│ │ ├── Home.jsx
+│ │ ├── Products.jsx
+│ │ ├── About.jsx
+│ │ ├── Contacts.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
+#  **Installation & Setup Instructions**
+
+Follow the steps below to **clone and run** the project locally 
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/yourusername/Handbags-react.git
+
+2️⃣ Navigate into project folder:cd Handbags-react
+3️⃣ Install dependencies: npm install
+4️⃣ Run the development server: npm run dev
+
+
