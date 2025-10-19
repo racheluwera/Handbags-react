@@ -38,8 +38,7 @@ function Home() {
           Discover timeless elegance — your one-stop store for premium handbags
           that define fashion, quality, and confidence.
         </p>
-        <button className="bg-pink-500 hover:bg-pink-600 text-white font-semibold px-8 py-3 rounded-full transition duration-300 shadow-md"><a href="/products.jsx">
-          Shop Now
+        <button className="bg-pink-500 hover:bg-pink-600 text-white font-semibold px-8 py-3 rounded-full transition duration-300 shadow-md"><a href="/products">Shop Now
         </a></button>
       </div>
     </section>
