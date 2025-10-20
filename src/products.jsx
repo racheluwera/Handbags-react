@@ -13,16 +13,16 @@ export default function Products() {
   ];
 
   // Function to add item to cart
-  const handleAddToCart = (product) => {
-    setCart((prevCart) => [...prevCart, product]);
-    alert(`${product.name} added to cart!`);
+  const handleAddToCart = (products) => {
+    setCart((prevCart) => [...prevCart, products]);
+    alert(`${products.name} added to cart!`);
   };
 
   return (
     <div className="p-8 bg-gray-100 min-h-screen">
       <h1 className="text-4xl font-bold mb-8 text-center">Our Products</h1>
 
-      {/*Product Grid */}
+     
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {products.map((product, index) => (
           <div
