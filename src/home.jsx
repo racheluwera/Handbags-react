@@ -3,20 +3,12 @@ import bannerImg from "./assets/image8.jpg"; // ✅ replace with your image path
 
 function Home() {
     const products = [
-  { 
-      image: "./src/assets/image.jpg" },
-  { 
-    image: "./src/assets/image1.jpg" },
-    {
-    image: "./src/assets/image2.jpg"},
- {
-    image: "./src/assets/image3.jpg"},
-    {
-    image: "./src/assets/image4.jpg"
-    },
-    {
-    image: "./src/assets/image5.jpg"
-    }
+  { image: "./src/assets/image.jpg" },
+  { image: "./src/assets/image1.jpg" },
+  { image: "./src/assets/image2.jpg"},
+  {image: "./src/assets/image3.jpg"},
+  {image: "./src/assets/image4.jpg"},
+  {image: "./src/assets/image5.jpg"}
 ]
   return (
     <>
@@ -26,13 +18,13 @@ function Home() {
         backgroundImage: `url(${bannerImg})`,
       }}
     >
-      {/* Overlay */}
+     
       <div className="absolute inset-0 bg-black/40"></div>
 
-      {/* Content */}
+    
       <div className="relative z-10 text-white px-6">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-4 tracking-wide">
-          Welcome to <span className="text-pink-400">LuxeBags</span>
+          Welcome to <span className="text-pink-400">HandBags</span>
         </h1>
         <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
           Discover timeless elegance — your one-stop store for premium handbags

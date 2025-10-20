@@ -42,7 +42,7 @@ export default function Products() {
               {/* Add to Cart Button */}
               <button
                 onClick={() => handleAddToCart(product)}
-                className="bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors"
+                className="bg-gray-200 text-black px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors"
               >
                 Add to Cart
               </button>
