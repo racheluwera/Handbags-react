@@ -1,4 +1,4 @@
-// src/components/Footer.jsx
+
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -6,7 +6,7 @@ function Footer() {
     <footer className="bg-gray-900 text-gray-300 py-10 mt-16">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
         
-        {/* About Section */}
+    
         <div>
           <h2 className="text-xl font-semibold text-pink-500 mb-3">HandBagStore</h2>
           <p className="text-sm leading-6">
@@ -14,7 +14,7 @@ function Footer() {
           </p>
         </div>
 
-        {/* Quick Links */}
+       
         <div>
           <h3 className="text-lg font-semibold text-pink-500 mb-3">Quick Links</h3>
           <ul className="space-y-2">
@@ -25,11 +25,11 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Contact Info */}
+        
         <div>
           <h3 className="text-lg font-semibold text-pink-500 mb-3">Get in Touch</h3>
-          <p>Email: support@handbagstore.com</p>
-          <p>Phone: +1 234 567 890</p>
+          <p>Email: racheluwera9@gmail.com</p>
+          <p>Phone: +250 790042388</p>
           <div className="flex space-x-4 mt-3">
             <a href="#" className="hover:text-pink-500">Facebook</a>
             <a href="#" className="hover:text-pink-500">Instagram</a>

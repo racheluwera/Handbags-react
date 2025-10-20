@@ -12,7 +12,7 @@ export default function Products() {
     { name: "Bag6", price: "$100", image: "./src/assets/image9.jpg" },
   ];
 
-  // 🛒 Function to add item to cart
+  // Function to add item to cart
   const handleAddToCart = (product) => {
     setCart((prevCart) => [...prevCart, product]);
     alert(`${product.name} added to cart!`);
@@ -22,7 +22,7 @@ export default function Products() {
     <div className="p-8 bg-gray-100 min-h-screen">
       <h1 className="text-4xl font-bold mb-8 text-center">Our Products</h1>
 
-      {/* 🛍️ Product Grid */}
+      {/*Product Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {products.map((product, index) => (
           <div
@@ -39,7 +39,7 @@ export default function Products() {
               <h2 className="text-2xl font-semibold mb-2">{product.name}</h2>
               <p className="text-gray-600 mb-4">{product.price}</p>
 
-              {/* 🛒 Add to Cart Button */}
+              {/* Add to Cart Button */}
               <button
                 onClick={() => handleAddToCart(product)}
                 className="bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors"
