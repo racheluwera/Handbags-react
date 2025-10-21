@@ -40,8 +40,7 @@ It’s designed to demonstrate responsive layouts, routing, and component-based 
 ## **Screenshot**
 
 Below is a preview of the homepage:
-
-![Homepage Screens![alt text](image.png)hot](./src/assets/screenshot.png)
+![alt text](image-1.png)(./src/assets/image.png)
 
 
 ## **Deployment Link**

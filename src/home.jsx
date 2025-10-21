@@ -1,5 +1,5 @@
 
-import bannerImg from "./assets/image8.jpg"; // ✅ replace with your image path
+import bannerImg from "./assets/image8.jpg"; 
 
 function Home() {
     const products = [
