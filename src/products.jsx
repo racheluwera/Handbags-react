@@ -12,6 +12,11 @@ export default function Products() {
     { name: "Bag6", price: "$100", image: "./src/assets/image9.jpg" },
   ];
 
+
+
+
+  
+
   // Function to add item to cart
   const handleAddToCart = (products) => {
     setCart((prevCart) => [...prevCart, products]);
