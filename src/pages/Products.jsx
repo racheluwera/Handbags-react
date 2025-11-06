@@ -4,12 +4,12 @@ export default function Products() {
   const [cart, setCart] = useState([]);
 
   const products = [
-    { name: "Bag1", price: "$50", image: "./src/assets/image1.jpg" },
-    { name: "Bag2", price: "$60", image: "./src/assets/image2.jpg" },
-    { name: "Bag3", price: "$70", image: "./src/assets/image3.jpg" },
-    { name: "Bag4", price: "$80", image: "./src/assets/image4.jpg" },
-    { name: "Bag5", price: "$90", image: "./src/assets/image10.jpg" },
-    { name: "Bag6", price: "$100", image: "./src/assets/image9.jpg" },
+    { name: "Bag1", price: "$50", image: "/assets/image1.jpg" },
+    { name: "Bag2", price: "$60", image: "/assets/image2.jpg" },
+    { name: "Bag3", price: "$70", image: "/assets/image3.jpg" },
+    { name: "Bag4", price: "$80", image: "/assets/image4.jpg" },
+    { name: "Bag5", price: "$90", image: "/assets/image10.jpg" },
+    { name: "Bag6", price: "$100", image: "/assets/image9.jpg" },
   ];
 
 
