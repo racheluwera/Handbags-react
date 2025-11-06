@@ -1,14 +1,14 @@
 
-import bannerImg from "./assets/image8.jpg"; 
+import bannerImg from "../assets/image8.jpg"; 
 
 function Home() {
     const products = [
-  { image: "./src/assets/image.jpg" },
-  { image: "./src/assets/image1.jpg" },
-  { image: "./src/assets/image2.jpg"},
-  {image: "./src/assets/image3.jpg"},
-  {image: "./src/assets/image4.jpg"},
-  {image: "./src/assets/image5.jpg"}
+  { image: "../src/assets/image.jpg" },
+  { image: "../src/assets/image1.jpg" },
+  { image: "../src/assets/image2.jpg"},
+  {image: "../src/assets/image3.jpg"},
+  {image: "../src/assets/image4.jpg"},
+  {image: "../src/assets/image5.jpg"}
 ]
   return (
     <>
